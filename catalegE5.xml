@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "catalegE5.dtd">
+
+<cataleg_musica>
+    <llista_artistes>
+        <artista id="a1">
+            <nom>Radiohead</nom>
+        </artista>
+        <artista id="a2">
+            <nom>Daft Punk</nom>
+            <pais>França</pais>
+        </artista>
+        <artista id="a3">
+            <nom>Nirvana</nom>
+            <genere>Grunge</genere>
+        </artista>
+        <artista id="a4">
+            <nom>Coldplay</nom>
+            <pais>Regne Unit</pais>
+            <genere>Rock alternatiu</genere>
+        </artista>
+    </llista_artistes>
+    <llista_albumes>
+        <album id="al1">
+            <titol>OK Computer</titol>
+            <any>1997</any>
+            <artistes>
+                <artista_ref ref="a1"/>
+            </artistes>
+        </album>
+        <album id="al2">
+            <titol>Random Access Memories</titol>
+            <any>2013</any>
+            <artistes>
+                <artista_ref ref="a2"/>
+            </artistes>
+        </album>
+        <album id="al3">
+            <titol>Nevermind</titol>
+            <any>1991</any>
+            <artistes>
+                <artista_ref ref="a3"/>
+            </artistes>
+        </album>
+    </llista_albumes>
+    <llista_recomanacions_albumes>
+        <recomanacio ref="al1"/>
+        <recomanacio ref="al3"/>
+    </llista_recomanacions_albumes>
+</cataleg_musica>
